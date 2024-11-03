@@ -1,0 +1,23 @@
+# config.yaml
+
+services:
+  - ssh.service
+  - cron.service
+  - networking.service
+
+log_limit: 50
+refresh_rate: 10  # in seconds
+
+themes:
+  light:
+    info: "black on white"
+    warning: "yellow"
+    error: "bold red"
+    header: "bold black on white"
+    footer: "bold black on white"
+  dark:
+    info: "white on black"
+    warning: "yellow"
+    error: "bold red"
+    header: "bold white on blue"
+    footer: "bold white on blue"

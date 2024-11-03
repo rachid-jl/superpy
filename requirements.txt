@@ -1,0 +1,6 @@
+psutil
+systemd
+watchdog
+loguru
+rich
+
