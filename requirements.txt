@@ -1,6 +1,9 @@
 psutil
-systemd
+python-systemd
 watchdog
 loguru
 rich
-
+dash
+plotly
+PyYAML
+keyboard
